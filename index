@@ -1,0 +1,9 @@
+function palindrome(str) {
+  const regex = /[\W_]/g
+  const string = str.toLowerCase().replace(regex, '')
+  const reverseString = string.split('').reverse().join('')
+
+  return string === reverseString
+}
+
+console.log(palindrome("A man, a plan, a canal. Panama"));
