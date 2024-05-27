@@ -20,9 +20,3 @@ function palindrome(str) {
 }
 
 palindrome("A man, a plan, a canal. Panama")
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
